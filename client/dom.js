@@ -5,7 +5,6 @@ container.classList.add('cards-container');
 container.id = 'container';
 
 const mainContainer = document.getElementById('main-container')
-const container = document.getElementById('container')
 
 mainContainer.appendChild(container);
 

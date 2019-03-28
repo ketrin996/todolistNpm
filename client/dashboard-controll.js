@@ -1,7 +1,7 @@
 import api from '../api/api';
 import dom from './dom';
 
-const container = document.getElementById('container');
+const container = document.getElementById('main-container');
 
 const deleteDashboardData = (node, id) => api.deleteBoard(id)
     .then(() => node.remove())
@@ -14,6 +14,6 @@ const addDashboard = () => api.addBoard()
     });
 
 export default {
-    deleteDashboardData5,
+    deleteDashboardData,
     addDashboard
 };
